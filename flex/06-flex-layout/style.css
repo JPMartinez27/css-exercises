@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -9,6 +12,7 @@ body {
 
 img {
   width: 600px;
+  margin: 12px;
 }
 
 button {
@@ -16,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px
 }
 
 input {
@@ -23,4 +28,80 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: -20px;
+  gap: 20px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  width: 300px;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  align-items: center;
+  padding: 5px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: -20px;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
 }
